@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+        xsd:noNamespaceSchemaLocation="flowers.xsd">
+
+    <flower_propagating_by_cuttings flower_code="A-1111">
+        <name>Tamarix</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>125</average_flower_size>
+        <date_of_planting>2017-03</date_of_planting>
+        <flower_growing_tips>
+            <temperature>10</temperature>
+            <light_loving>true</light_loving>
+            <watering>40</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Pink</plant_flower_color>
+        <stem_color>Brown</stem_color>
+        <soil_type>Ground</soil_type>
+        <type_of_cutting>Root</type_of_cutting>
+    </flower_propagating_by_cuttings>
+
+    <flower_propagating_by_leaves flower_code="B-2222">
+        <name>Begonia</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>300</average_flower_size>
+        <date_of_planting>2005-05</date_of_planting>
+        <flower_growing_tips>
+            <temperature>1</temperature>
+            <light_loving>true</light_loving>
+            <watering>30</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <leaf_propagation_type>LeafWithWholePetiole</leaf_propagation_type>
+    </flower_propagating_by_leaves>
+
+    <flower_propagating_by_seeds seeds_name="DelphiniumSeeds" flower_code="C-3333">
+        <name>Delphinium</name>
+        <origin>South-EastAsia</origin>
+        <average_flower_size>500</average_flower_size>
+        <date_of_planting>2000-02</date_of_planting>
+        <flower_growing_tips>
+            <temperature>7</temperature>
+            <light_loving>false</light_loving>
+            <watering>100</watering>
+        </flower_growing_tips>
+        <plant_flower_color>White</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>Podzol</soil_type>
+        <type_of_seeds>BiennialFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+</flowers>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:complexType name="flower_type">
+        <xsd:sequence>
+            <xsd:element name="name">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:minLength value="1"/>
+                        <xsd:maxLength value="20"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="origin" type="xsd:string"/>
+            <xsd:element name="average_flower_size" type="xsd:positiveInteger"/>
+            <xsd:element ref="date_of_planting"/>
+            <xsd:element ref="flower_growing_tips"/>
+            <xsd:element ref="plant_flower_color"/>
+            <xsd:element ref="stem_color"/>
+            <xsd:element ref="soil_type"/>
+        </xsd:sequence>
+        <xsd:attribute name="flower_code" type="xsd:ID" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="flower_propagating_by_cuttings_type">
+        <xsd:complexContent>
+            <xsd:extension base="flower_type">
+                <xsd:sequence>
+                    <xsd:element name="type_of_cutting" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="flower_propagating_by_leaves_type">
+        <xsd:complexContent>
+            <xsd:extension base="flower_type">
+                <xsd:sequence>
+                    <xsd:element name="leaf_propagation_type" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="flower_propagating_by_seeds_type">
+        <xsd:complexContent>
+            <xsd:extension base="flower_type">
+                <xsd:sequence>
+                    <xsd:element name="type_of_seeds" type="xsd:string"/>
+                </xsd:sequence>
+                <xsd:attribute name="seeds_name" type="xsd:string" default="without"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:element name="flower" type="flower_type" abstract="true"/>
+
+    <xsd:element name="flower_propagating_by_cuttings" type="flower_propagating_by_cuttings_type" substitutionGroup="flower"/>
+
+    <xsd:element name="flower_propagating_by_leaves" type="flower_propagating_by_leaves_type" substitutionGroup="flower"/>
+
+    <xsd:element name="flower_propagating_by_seeds" type="flower_propagating_by_seeds_type" substitutionGroup="flower"/>
+
+
+    <xsd:element name="flower_growing_tips">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="temperature" type="xsd:int"/>
+                <xsd:element name="light_loving" type="xsd:boolean"/>
+                <xsd:element name="watering" type="xsd:int"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="plant_flower_color">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="Pink"/>
+                <xsd:enumeration value="White"/>
+                <xsd:enumeration value="Red"/>
+                <xsd:enumeration value="Yellow"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="stem_color">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="Green"/>
+                <xsd:enumeration value="Brown"/>
+                <xsd:enumeration value="LightGreen"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="soil_type">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="Ground"/>
+                <xsd:enumeration value="Podzol"/>
+                <xsd:enumeration value="SoddyPodzol"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="date_of_planting">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:gYearMonth">
+                <xsd:pattern value="2[0-9][0-9][0-9]-((0[1-9])|(1[0-2]))"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="flowers">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="flower" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
