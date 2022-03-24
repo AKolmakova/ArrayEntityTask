@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flowers xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+         xsd:noNamespaceSchemaLocation="flowers.xsd">
+
+    <flower_propagating_by_cuttings flower_code="A-1">
+        <name>Tamarix</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>201</average_flower_size>
+        <date_of_planting>2008-09</date_of_planting>
+        <flower_growing_tips>
+            <temperature>3</temperature>
+            <light_loving>true</light_loving>
+            <watering>3</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Pink</plant_flower_color>
+        <stem_color>Brown</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <type_of_cutting>Root</type_of_cutting>
+    </flower_propagating_by_cuttings>
+
+    <flower_propagating_by_leaves flower_code="A-2">
+        <name>Begonia</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>54</average_flower_size>
+        <date_of_planting>2000-06</date_of_planting>
+        <flower_growing_tips>
+            <temperature>6</temperature>
+            <light_loving>false</light_loving>
+            <watering>50</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>Podzol</soil_type>
+        <leaf_propagation_type>LeafWithWholePetiole</leaf_propagation_type>
+    </flower_propagating_by_leaves>
+
+    <flower_propagating_by_seeds seeds_name="DelfiniumSeeds" flower_code="A-3">
+        <name>Delphinium</name>
+        <origin>South-EastAsia</origin>
+        <average_flower_size>798</average_flower_size>
+        <date_of_planting>2002-01</date_of_planting>
+        <flower_growing_tips>
+            <temperature>5</temperature>
+            <light_loving>true</light_loving>
+            <watering>56</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Yellow</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>Ground</soil_type>
+        <type_of_seeds>BiennialFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+    <flower_propagating_by_cuttings flower_code="A-4">
+        <name>Petunia</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>345</average_flower_size>
+        <date_of_planting>2000-09</date_of_planting>
+        <flower_growing_tips>
+            <temperature>4</temperature>
+            <light_loving>true</light_loving>
+            <watering>58</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Yellow</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>Podzol</soil_type>
+        <type_of_cutting>StemCuttings</type_of_cutting>
+    </flower_propagating_by_cuttings>
+
+    <flower_propagating_by_leaves flower_code="A-5">
+        <name>Violet</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>347</average_flower_size>
+        <date_of_planting>2000-08</date_of_planting>
+        <flower_growing_tips>
+            <temperature>7</temperature>
+            <light_loving>false</light_loving>
+            <watering>78</watering>
+        </flower_growing_tips>
+        <plant_flower_color>White</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>Podzol</soil_type>
+        <leaf_propagation_type>LeafWithWholePetiole</leaf_propagation_type>
+    </flower_propagating_by_leaves>
+
+    <flower_propagating_by_leaves flower_code="A-6">
+        <name>Ahimenes</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>56</average_flower_size>
+        <date_of_planting>2005-02</date_of_planting>
+        <flower_growing_tips>
+            <temperature>5</temperature>
+            <light_loving>true</light_loving>
+            <watering>50</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <leaf_propagation_type>LeafWithWholePetiole</leaf_propagation_type>
+    </flower_propagating_by_leaves>
+
+    <flower_propagating_by_leaves flower_code="A-7">
+        <name>Peperomia</name>
+        <origin>South-EastAsia</origin>
+        <average_flower_size>456</average_flower_size>
+        <date_of_planting>2006-08</date_of_planting>
+        <flower_growing_tips>
+            <temperature>5</temperature>
+            <light_loving>true</light_loving>
+            <watering>67</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Pink</plant_flower_color>
+        <stem_color>Brown</stem_color>
+        <soil_type>Ground</soil_type>
+        <leaf_propagation_type>LeafWithWholePetiole</leaf_propagation_type>
+    </flower_propagating_by_leaves>
+
+    <flower_propagating_by_cuttings flower_code="A-8">
+        <name>Hydrangea</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>58</average_flower_size>
+        <date_of_planting>2001-05</date_of_planting>
+        <flower_growing_tips>
+            <temperature>5</temperature>
+            <light_loving>true</light_loving>
+            <watering>70</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Yellow</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <type_of_cutting>Root</type_of_cutting>
+    </flower_propagating_by_cuttings>
+
+    <flower_propagating_by_cuttings flower_code="A-9">
+        <name>Keriya</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>456</average_flower_size>
+        <date_of_planting>2010-08</date_of_planting>
+        <flower_growing_tips>
+            <temperature>4</temperature>
+            <light_loving>false</light_loving>
+            <watering>5</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>Podzol</soil_type>
+        <type_of_cutting>Root</type_of_cutting>
+    </flower_propagating_by_cuttings>
+
+    <flower_propagating_by_cuttings flower_code="A-10">
+        <name>Quince</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>456</average_flower_size>
+        <date_of_planting>2009-08</date_of_planting>
+        <flower_growing_tips>
+            <temperature>4</temperature>
+            <light_loving>true</light_loving>
+            <watering>80</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <type_of_cutting>Root</type_of_cutting>
+    </flower_propagating_by_cuttings>
+
+    <flower_propagating_by_seeds seeds_name="AlyssymSeeds" flower_code="A-11">
+        <name>Alyssum</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>345</average_flower_size>
+        <date_of_planting>2008-05</date_of_planting>
+        <flower_growing_tips>
+            <temperature>6</temperature>
+            <light_loving>true</light_loving>
+            <watering>79</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Pink</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>Podzol</soil_type>
+        <type_of_seeds>AlyssumFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+    <flower_propagating_by_seeds seeds_name="EscsolziaSeeds" flower_code="A-12">
+        <name>Eschsolzia</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>456</average_flower_size>
+        <date_of_planting>2001-06</date_of_planting>
+        <flower_growing_tips>
+            <temperature>7</temperature>
+            <light_loving>true</light_loving>
+            <watering>79</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>Brown</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <type_of_seeds>EschsolziaFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+    <flower_propagating_by_seeds seeds_name="IberisSeeds" flower_code="A-13">
+        <name>Iberis</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>809</average_flower_size>
+        <date_of_planting>2001-01</date_of_planting>
+        <flower_growing_tips>
+            <temperature>4</temperature>
+            <light_loving>false</light_loving>
+            <watering>20</watering>
+        </flower_growing_tips>
+        <plant_flower_color>White</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>Ground</soil_type>
+        <type_of_seeds>IberisFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+    <flower_propagating_by_seeds seeds_name="CornflowerSeeds" flower_code="A-14">
+        <name>Cornflower</name>
+        <origin>CentralAsia</origin>
+        <average_flower_size>903</average_flower_size>
+        <date_of_planting>2000-06</date_of_planting>
+        <flower_growing_tips>
+            <temperature>4</temperature>
+            <light_loving>false</light_loving>
+            <watering>45</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Pink</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>SoddyPodzol</soil_type>
+        <type_of_seeds>CornflowerFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+    <flower_propagating_by_seeds seeds_name="PurslaneSeeds" flower_code="A-15">
+        <name>Purslane</name>
+        <origin>SouthAmerica</origin>
+        <average_flower_size>567</average_flower_size>
+        <date_of_planting>2000-08</date_of_planting>
+        <flower_growing_tips>
+            <temperature>10</temperature>
+            <light_loving>true</light_loving>
+            <watering>12</watering>
+        </flower_growing_tips>
+        <plant_flower_color>White</plant_flower_color>
+        <stem_color>Green</stem_color>
+        <soil_type>Podzol</soil_type>
+        <type_of_seeds>PurslaneFlowerSeeds</type_of_seeds>
+    </flower_propagating_by_seeds>
+
+    <flower_propagating_by_leaves flower_code="A-16">
+        <name>Sansevier</name>
+        <origin>South-EastAsia</origin>
+        <average_flower_size>234</average_flower_size>
+        <date_of_planting>2003-01</date_of_planting>
+        <flower_growing_tips>
+            <temperature>12</temperature>
+            <light_loving>true</light_loving>
+            <watering>40</watering>
+        </flower_growing_tips>
+        <plant_flower_color>Red</plant_flower_color>
+        <stem_color>LightGreen</stem_color>
+        <soil_type>Ground</soil_type>
+        <leaf_propagation_type>LeafWithWholePetiole</leaf_propagation_type>
+    </flower_propagating_by_leaves>
+
+</flowers>
